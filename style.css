@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Rasa', serif;
+}
+
+#my_first_heading {
+    text-align: center;
+}
+
+li {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 700px;
+    background: white;
+    list-style: none;
+    border-radius: 10px; 
+    border: 1px #BDBDBD solid;
+}
+
+li div:first-child, li div:last-child {
+    padding: 10px;
+}
+
+liv div h2 {
+    margin: 0px;
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+#grey_area {
+    background: #f3f3f3;
+    padding-top: 30px;
+}
+
+span {
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}

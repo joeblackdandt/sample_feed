@@ -1,0 +1,87 @@
+body{
+    font-family: Montserrat;
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+.bg-grey{
+    background-color: #e6e6e6;
+}
+
+header h2{
+    margin:0;
+}
+header + section{
+    padding-top: 40px;
+}
+
+.thumbnail{
+    padding: 0;
+    border:none;
+    -webkit-transition: box-shadow .2s ease-in-out;
+    -o-transition: box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+}
+.thumbnail > img{
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#one_column .thumbnail:hover{
+    box-shadow: 0px 15px 25px -6px grey;
+}
+#three_columns .thumbnail>img:hover{
+    transform: translate(-50%,-50%) scale(1.5);
+}
+.thumbnail-title{
+    padding: 15px 9px;
+}
+.thumbnail-title h4{
+    font-weight: bold;
+    margin: 0;
+}
+.thumbnail-title .thumbnail-date{
+    color:#aaa;
+}
+.thumbnail img{
+    border-top:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+}
+
+.nav-pills{
+    padding: 15px 0;
+}
+.nav-pills>li{
+    float: none;
+    display: inline-block;
+}
+
+#one_column .container{
+    padding-top: 30px;
+}
+
+#three_columns .thumbnail .thumbnail-title, #three_columns .thumbnail .caption{
+    display: none;
+}
+#three_columns .thumbnail img{
+    border: none;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+#three_columns .row > div{
+    padding: 0;
+}
+#three_columns .thumbnail{
+    height: calc((100vh - 122px)/2);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    border-radius: 0;
+}
